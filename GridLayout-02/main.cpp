@@ -37,6 +37,12 @@ QScrollArea* createScrollArea()
         //connect(combo, SIGNAL(currentIndexChanged(int)), this, SLOT(roll(int)));
     }
 
+    QLayoutItem* layoutItem = formLayout->takeAt(0);
+    layoutItem->widget()->setVisible(false);
+    layoutItem = formLayout->takeAt(1);
+    layoutItem->widget()->setVisible(false);
+
+
     scroll->setWidget(content_widget);
     return scroll;
 }
