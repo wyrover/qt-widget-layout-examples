@@ -42,3 +42,7 @@ target_wrapper.*
 # QtCreator CMake
 CMakeLists.txt.user*
 /FormLayout-01/*.pro
+/tagbuttton/Win32
+/tagbuttton/*.user
+/tagbuttton/.vs
+/tagbuttton/debug
